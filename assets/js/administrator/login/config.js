@@ -1,0 +1,1 @@
+var logged_user_url = site_url+'/user/getloggeduserlist';

@@ -1,0 +1,1 @@
+var login_url = site_url+'/mainsite/login/dologin';

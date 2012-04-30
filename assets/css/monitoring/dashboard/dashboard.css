@@ -1,0 +1,16 @@
+#cpuusage {
+    	/*font:normal 60em tahoma, arial, sans-serif;*/
+    	color: black;
+    	margin: 5px;
+     /*vertical-align: middle;*/
+	width: 100%;
+}
+
+#cpuusage h1 {
+    font-size: 10em;
+    color: #555;
+}
+
+.bigfont {
+	font-size: 30em;
+}
