@@ -8,14 +8,14 @@
 	<title><?php echo $site_name; ?></title>
     <?php
    		$this->extloader->loadbase();
-		$this->asset->stylesheet('siteadmin/home'); 
+		$this->asset->stylesheet('administrator/home'); 
 		
-		$this->asset->javascript('siteadmin/config');
-		$this->asset->javascript('siteadmin/home/config');
-		$this->asset->javascript('siteadmin/home/loggeduser');
-		$this->asset->javascript('siteadmin/home/newuser');
-		$this->asset->javascript('siteadmin/home/userstat');
-		$this->asset->javascript('siteadmin/home/siteadmin');
+		$this->asset->javascript('administrator/config');
+		$this->asset->javascript('administrator/home/config');
+		$this->asset->javascript('administrator/home/loggeduser');
+		$this->asset->javascript('administrator/home/newuser');
+		$this->asset->javascript('administrator/home/userstat');
+		$this->asset->javascript('administrator/home/siteadmin');
 	?>
 </head>
 <body>

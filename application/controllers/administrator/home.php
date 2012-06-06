@@ -20,7 +20,8 @@ class Home extends CI_Controller {
 		$issiteadmin = $this->session->userdata('issiteadmin');
 		
 		if ($issiteadmin) {
-			$this->load->view('inventory/home/home_siteadmin', $data);
+			//$this->load->view('inventory/home/home_siteadmin', $data);
+			$this->load->view('administrator/home/home_index', $data);
 		} else {
 			$this->load->view('inventory/page_redirect', $data);
 		}
