@@ -6,5 +6,5 @@
  */
 
 var home_url = 'http://localhost/website/new_inventory';
-var site_url = home_url + '/siteadmin';
+var site_url = home_url + '/administrator';
 var sitename = document.title;

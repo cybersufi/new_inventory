@@ -13,8 +13,8 @@ class User extends CI_Controller {
 		$this->CI =& get_Instance();
 		$this->siteName = $this->CI->config->item('site_name');
 		$this->baseurl = $this->CI->config->item('base_url');
-		$this->index = 'siteadmin/users/user_index';
-		$this->result = 'siteadmin/users/user_result';
+		$this->index = 'administrator/users/user_index';
+		$this->result = 'administrator/users/user_result';
 		$this->load->library('redux_auth');
 		$this->load->model('siteadmin/usermodel','um');
 	}
