@@ -9,7 +9,7 @@
 | "default" group).
 |
 */
-$ext['ext_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/website/ext/';
+$ext['ext_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/ext/';
 
 /* End of file ext.php */
 /* Location: ./system/application/config/ext.php */
